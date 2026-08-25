@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloom by Janvi — Handcrafted Dreamcatchers, Keychains & More</title>
+  <meta name="description" content="Discover beautiful handmade dreamcatchers, keychains, bracelets and wall decor crafted with love by Bloom by Janvi. Shop now from Rajkot, Gujarat.">
+  <link rel="icon" href="imgs/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════
+       ANNOUNCEMENT BAR
+  ════════════════════════════════════════ -->
+  <div class="announcement-bar">
+    <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    Free Shipping on Orders Above ₹999 &nbsp;|&nbsp; Handmade with Love
+    <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════ -->
+  <header class="nav" id="mainNav">
+    <div class="nav-inner">
+      <!-- Brand -->
+      <a href="#" class="nav-brand">
+        <img src="imgs/logo.jpg" alt="Bloom by Janvi Logo">
+        <span class="nav-brand-text">Bloom <em>by Janvi</em></span>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Icons -->
+      <div class="nav-icons">
+        <!-- Search -->
+        <button class="nav-icon-btn" onclick="openSearch()" aria-label="Search">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <!-- Wishlist -->
+        <button class="nav-icon-btn" onclick="openWishDrawer()" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          <span class="badge" id="wishBadge">0</span>
+        </button>
+        <!-- Cart -->
+        <button class="nav-icon-btn" onclick="openCartDrawer()" aria-label="Cart">
+          <svg viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span class="badge" id="cartBadge">0</span>
+        </button>
+        <!-- Burger -->
+        <button class="nav-burger" id="burgerBtn" onclick="openMobileMenu()" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <nav class="mobile-drawer" id="mobileDrawer">
+    <a href="#" onclick="closeAll()">Home</a>
+    <a href="#products" onclick="closeAll()">Shop</a>
+    <a href="#about" onclick="closeAll()">About Us</a>
+    <a href="#contact" onclick="closeAll()">Contact</a>
+    <a href="javascript:void(0)" onclick="closeAll();openSearch()">Search</a>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO SECTION
+  ════════════════════════════════════════ -->
+  <main>
+  <section class="hero" id="home">
+    <!-- Animation 1: Subtle Floating Feathers (SVG) -->
+    <svg class="hero-feather feather-1" viewBox="0 0 50 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M25 0 C15 20, 3 45, 8 75 Q16 95, 25 100 Q34 95, 42 75 C47 45, 35 20, 25 0Z" fill="#B9A1D9" opacity="0.45"/>
+      <line x1="25" y1="100" x2="25" y2="5" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+    </svg>
+    <svg class="hero-feather feather-2" viewBox="0 0 45 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22 0 C13 18, 2 40, 7 67 Q14 85, 22 90 Q30 85, 37 67 C42 40, 31 18, 22 0Z" fill="#C4AEDE" opacity="0.4"/>
+      <line x1="22" y1="90" x2="22" y2="5" stroke="#FFFFFF" stroke-width="1.2" opacity="0.6"/>
+    </svg>
+    <svg class="hero-feather feather-3" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 0 C12 16, 2 36, 6 60 Q13 76, 20 80 Q27 76, 34 60 C38 36, 28 16, 20 0Z" fill="#D4BBF0" opacity="0.42"/>
+    </svg>
+    <svg class="hero-feather feather-4" viewBox="0 0 48 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24 0 C14 19, 3 43, 8 71 Q16 90, 24 95 Q32 90, 40 71 C45 43, 34 19, 24 0Z" fill="#B9A1D9" opacity="0.4"/>
+      <line x1="24" y1="95" x2="24" y2="5" stroke="#FFFFFF" stroke-width="1.2" opacity="0.5"/>
+    </svg>
+
+    <!-- Animation 2: Magical Sparkles (8-10 subtle edge particles) -->
+    <div class="hero-sparkle sparkle-1"><svg viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="hero-sparkle sparkle-2"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/></svg></div>
+    <div class="hero-sparkle sparkle-3"><svg viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="hero-sparkle sparkle-4"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg></div>
+    <div class="hero-sparkle sparkle-5"><svg viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="hero-sparkle sparkle-6"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></svg></div>
+    <div class="hero-sparkle sparkle-7"><svg viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="hero-sparkle sparkle-8"><svg viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="hero-sparkle sparkle-9"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg></div>
+    <div class="hero-sparkle sparkle-10"><svg viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+
+    <div class="hero-container">
+      <!-- Left Side: Content -->
+      <div class="hero-content">
+        <span class="hero-label">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          Handmade with Love
+        </span>
+
+        <h1 class="hero-title">
+          Handcrafted<br>
+          with Love <span class="heart">♡</span>
+        </h1>
+
+        <p class="hero-desc">
+          Discover beautiful handmade pieces designed to bring elegance, positivity &amp; charm into your space.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+          <a href="#about" class="btn btn-secondary">Explore Handmade</a>
+        </div>
+      </div>
+
+      <!-- Right Side: Animation 3 — Floating Product + Soft Glow -->
+      <div class="hero-visual">
+        <div class="hero-img-frame" onclick="openModal(1)">
+          <img src="imgs/6.jpg" alt="Pink Dreamcatcher — featured product">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       DIRECT PRODUCT COLLECTION (NO CATEGORIES)
+  ════════════════════════════════════════ -->
+  <section class="section products-section" id="products">
+    <div class="section-inner">
+      <span class="section-label" data-reveal>OUR HANDCRAFTED COLLECTION</span>
+      <h2 class="section-title" data-reveal>
+        Made with love, created to be <span class="cursive">cherished.</span>
+      </h2>
+      <p class="section-sub" data-reveal>Every product handcrafted with care — all available at ₹250.</p>
+
+      <div class="product-grid" id="productGrid" data-reveal>
+        <!-- Rendered by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       BRAND STORY SECTION
+  ════════════════════════════════════════ -->
+  <section class="section story-section" id="about">
+    <div class="section-inner" data-reveal>
+      <div class="story-grid">
+        <!-- Image -->
+        <div class="story-img-col">
+          <img src="imgs/4.jpg" alt="Handcrafting a dreamcatcher">
+        </div>
+
+        <!-- Content -->
+        <div class="story-content">
+          <span class="section-label">Made by Hand, with Love</span>
+          <h2 class="section-title">
+            The Art Behind<br>Every Piece <span class="cursive">♡</span>
+          </h2>
+          <p>
+            Every piece is thoughtfully handcrafted with care, creativity and love. We believe in creating more than just products, we create memories.
+          </p>
+
+          <div class="story-features">
+            <div class="story-feat">
+              <div class="story-feat-icon">
+                <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              </div>
+              <span>Handmade<br>with Love</span>
+            </div>
+            <div class="story-feat">
+              <div class="story-feat-icon">
+                <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span>Premium<br>Quality</span>
+            </div>
+            <div class="story-feat">
+              <div class="story-feat-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+              </div>
+              <span>Unique &amp;<br>Meaningful</span>
+            </div>
+          </div>
+
+          <a href="javascript:void(0)" class="btn btn-primary"
+             onclick="toast('Thank you for your interest! Reach us on Instagram 💜')">
+            Our Story
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       INSTAGRAM SECTION
+  ════════════════════════════════════════ -->
+  <section class="section instagram-section" id="contact">
+    <div class="section-inner" data-reveal>
+      <span class="section-label">Follow Our Journey</span>
+      <h2 class="section-title">@bloombyjanvi ♡</h2>
+
+      <div class="insta-grid">
+        <a href="javascript:void(0)" onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')" class="insta-tile">
+          <img src="imgs/11.jpg" alt="Instagram post 1" loading="lazy">
+          <div class="insta-overlay">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+        </a>
+        <a href="javascript:void(0)" onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')" class="insta-tile">
+          <img src="imgs/6.jpg" alt="Instagram post 2" loading="lazy">
+          <div class="insta-overlay">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+        </a>
+        <a href="javascript:void(0)" onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')" class="insta-tile">
+          <img src="imgs/3.jpg" alt="Instagram post 3" loading="lazy">
+          <div class="insta-overlay">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+        </a>
+        <a href="javascript:void(0)" onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')" class="insta-tile">
+          <img src="imgs/5.jpg" alt="Instagram post 4" loading="lazy">
+          <div class="insta-overlay">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+        </a>
+        <a href="javascript:void(0)" onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')" class="insta-tile">
+          <img src="imgs/14.jpg" alt="Instagram post 5" loading="lazy">
+          <div class="insta-overlay">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+        </a>
+        <a href="javascript:void(0)" onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')" class="insta-tile">
+          <img src="imgs/1.jpg" alt="Instagram post 6" loading="lazy">
+          <div class="insta-overlay">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+        </a>
+      </div>
+
+      <div style="text-align:center;">
+        <a href="javascript:void(0)"
+           onclick="window.open('https://www.instagram.com/bloombyjanvi','_blank')"
+           class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="display:inline-block;vertical-align:middle;margin-right:.3rem;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          Follow Us on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="footer" data-reveal>
+    <div class="footer-grid">
+      <!-- Brand col -->
+      <div>
+        <div class="footer-brand-logo">
+          <img src="imgs/logo.jpg" alt="Bloom by Janvi">
+          <span class="footer-brand-text">Bloom <em>by Janvi</em></span>
+        </div>
+        <p class="footer-bio">Beautifully handcrafted pieces made with love, creativity and positive energy.</p>
+        <div class="footer-social">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/bloombyjanvi" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <!-- Pinterest -->
+          <a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.065-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 32 32"><path d="M16 0C7.2 0 0 7.2 0 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.2C10.6 31.1 13.3 32 16 32c8.8 0 16-7.2 16-16S24.8 0 16 0zm0 29.3c-2.4 0-4.7-.6-6.8-1.9l-.5-.3-4.9 1.3 1.3-4.8-.3-.5C3.5 20.9 2.8 18.5 2.8 16 2.8 8.7 8.7 2.8 16 2.8S29.2 8.7 29.2 16 23.3 29.3 16 29.3zm7.4-9.5c-.4-.2-2.4-1.2-2.8-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.3 1.5-.2.3-.5.3-.9.1-1.2-.6-2.4-1.4-3.4-2.4-1-.9-1.8-2.1-2.4-3.3-.2-.4-.1-.6.2-.9.3-.3 1.1-1.1 1.3-1.4.2-.3.1-.6 0-.9-.1-.3-1.1-2.6-1.5-3.6-.3-.7-.6-.6-.9-.6h-.7c-.3 0-.7.1-1 .5-.4.4-1.4 1.4-1.4 3.3 0 2 1.4 3.8 1.6 4.1.2.3 2.7 4.1 6.5 5.6 3.9 1.5 3.9 1 4.6.9.7-.1 2.4-1 2.7-1.9.3-1 .3-1.8.2-2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Customer Care -->
+      <div class="footer-col">
+        <h4>Customer Care</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="toast('Free shipping on orders above ₹999!')">Shipping Policy</a></li>
+          <li><a href="javascript:void(0)" onclick="toast('7-day replacement guarantee!')">Returns &amp; Refunds</a></li>
+          <li><a href="javascript:void(0)" onclick="toast('Terms: All sales are final after dispatch.')">Terms &amp; Conditions</a></li>
+          <li><a href="javascript:void(0)" onclick="toast('Your data is 100% secure.')">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            hello@bloombyjanvi.com
+          </li>
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.07 2.18 2 2 0 012.06 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +91 98765 43210
+          </li>
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rajkot, Gujarat, India
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Bloom by Janvi. All Rights Reserved.
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════════
+       GLOBAL BACKDROP
+  ════════════════════════════════════════ -->
+  <div class="backdrop" id="backdrop" onclick="closeAll()"></div>
+
+  <!-- ════════════════════════════════════════
+       CART DRAWER
+  ════════════════════════════════════════ -->
+  <aside class="drawer" id="cartDrawer" role="dialog" aria-label="Cart">
+    <div class="drawer-head">
+      <h3>Your Cart</h3>
+      <button class="drawer-close" onclick="closeAll()">✕</button>
+    </div>
+    <div class="drawer-body" id="cartBody"></div>
+    <div class="drawer-foot">
+      <div class="subtotal">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">₹0</span>
+      </div>
+      <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20place%20an%20order."
+         target="_blank" rel="noopener" class="btn btn-primary btn-full">
+        Checkout on WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <!-- ════════════════════════════════════════
+       WISHLIST DRAWER
+  ════════════════════════════════════════ -->
+  <aside class="drawer" id="wishDrawer" role="dialog" aria-label="Wishlist">
+    <div class="drawer-head">
+      <h3>Your Wishlist</h3>
+      <button class="drawer-close" onclick="closeAll()">✕</button>
+    </div>
+    <div class="drawer-body" id="wishBody"></div>
+  </aside>
+
+  <!-- ════════════════════════════════════════
+       SEARCH MODAL
+  ════════════════════════════════════════ -->
+  <div class="search-modal" id="searchModal" role="dialog" aria-label="Search">
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" placeholder="Search products…" oninput="handleSearch(this.value)" autocomplete="off">
+      <button class="search-close" onclick="closeAll()">✕</button>
+    </div>
+    <div class="search-results" id="searchResults">
+      <p class="search-hint">Type at least 2 characters to search…</p>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       PRODUCT DETAIL MODAL
+  ════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
+    <div class="modal-box" role="dialog" aria-label="Product detail">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div class="modal-grid">
+        <!-- Image -->
+        <div class="modal-img-side">
+          <img id="modalMainImg" src="" alt="Product image">
+        </div>
+        <!-- Info -->
+        <div class="modal-info-side">
+          <p style="font-size:.76rem;color:#B9A1D9;font-weight:600;letter-spacing:.1em;text-transform:uppercase;" id="modalCategory">Dreamcatcher</p>
+          <h2 class="modal-title" id="modalTitle">Product Name</h2>
+          <div class="modal-stars">★★★★★</div>
+          <div class="modal-price" id="modalPrice">₹250</div>
+          <p class="modal-desc" id="modalDesc">Product description goes here.</p>
+
+          <!-- Quantity & buttons -->
+          <div class="modal-qty-row">
+            <div class="modal-qty">
+              <button onclick="changeQty(-1)">-</button>
+              <span id="modalQtyVal">1</span>
+              <button onclick="changeQty(1)">+</button>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-full" id="modalAddBtn" style="margin-top:.6rem;">
+            Add to Cart
+          </button>
+
+          <button class="modal-wish-btn" id="modalWishBtn" style="margin-top:.8rem;">
+            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            Add to Wishlist
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast container -->
+  <div class="toast-wrap" id="toastWrap"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
