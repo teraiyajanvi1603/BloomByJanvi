@@ -867,6 +867,7 @@ function renderProducts() {
       </div>
     </div>
   `).join('');
+  grid.classList.add('revealed');
 }
 
 // ─── Product Modal ───
