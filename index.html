@@ -27,7 +27,7 @@
       <!-- Brand -->
       <a href="#" class="nav-brand">
         <img src="imgs/logo.jpg" alt="Bloom by Janvi Logo">
-        <span class="nav-brand-text">Bloom <em>by Janvi</em></span>
+        <span class="nav-brand-text">Bloom by <span class="brand-script">Janvi</span></span>
       </a>
 
       <!-- Desktop Links -->
@@ -147,6 +147,14 @@
         Made with love, created to be <span class="cursive">cherished.</span>
       </h2>
       <p class="section-sub" data-reveal>Every product handcrafted with care — all available at ₹250.</p>
+
+      <!-- Category Filter -->
+      <div class="category-filter-bar" id="categoryFilterBar" data-reveal>
+        <button class="filter-btn active" data-category="All" onclick="filterProducts('All')">All</button>
+        <button class="filter-btn" data-category="Car / Wall Hanging" onclick="filterProducts('Car / Wall Hanging')">Car / Wall Hanging</button>
+        <button class="filter-btn" data-category="Keychain" onclick="filterProducts('Keychain')">Keychain</button>
+        <button class="filter-btn" data-category="Navratri" onclick="filterProducts('Navratri')">Navratri</button>
+      </div>
 
       <div class="product-grid" id="productGrid" data-reveal>
         <!-- Rendered by JavaScript -->
@@ -355,10 +363,9 @@
         <span>Subtotal</span>
         <span id="cartSubtotal">₹0</span>
       </div>
-      <a href="https://wa.me/918511037557?text=Hi!%20I%20want%20to%20place%20an%20order."
-         target="_blank" rel="noopener" class="btn btn-primary btn-full">
+      <button class="btn btn-primary btn-full" id="whatsappCheckoutBtn" onclick="checkoutWhatsApp()">
         Checkout on WhatsApp
-      </a>
+      </button>
     </div>
   </aside>
 

@@ -3,7 +3,7 @@
    Optimized 60fps GPU Performance & Butter-Smooth Scroll
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* ── Design Tokens ── */
 :root {
@@ -126,8 +126,19 @@ ul { list-style:none; }
 .nav-brand-text {
   font-family: var(--font-head);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--text);
+  line-height: 1;
+  display: inline-flex;
+  align-items: baseline;
+}
+.nav-brand-text .brand-script {
+  font-family: 'Alex Brush', cursive;
+  font-size: 1.65rem;
+  font-weight: 400;
+  color: var(--purple);
+  margin-left: 0.25rem;
+  display: inline-block;
   line-height: 1;
 }
 .nav-brand-text em {
@@ -588,10 +599,49 @@ ul { list-style:none; }
   background: rgba(255, 255, 255, 0.55);
 }
 
+/* ── Category Filter Bar ── */
+.category-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.2rem;
+}
+.filter-btn {
+  padding: .55rem 1.4rem;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1.5px solid var(--border);
+  color: var(--text);
+  font-size: .84rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  transition: all .25s var(--ease);
+  cursor: pointer;
+}
+.filter-btn:hover {
+  background: var(--lavender-light);
+  border-color: var(--lavender);
+  color: var(--purple);
+  transform: translateY(-1px);
+}
+.filter-btn.active {
+  background: var(--purple);
+  color: var(--white);
+  border-color: var(--purple);
+  box-shadow: 0 4px 16px rgba(91, 58, 142, 0.25);
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.4rem;
+  transition: opacity .25s var(--ease), transform .25s var(--ease);
+}
+.product-grid.filtering {
+  opacity: 0;
+  transform: translateY(8px);
 }
 
 .product-card {
