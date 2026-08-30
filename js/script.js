@@ -862,7 +862,7 @@ function renderProducts() {
       </div>
       <div class="product-card-body">
         <div class="product-name">${p.name}</div>
-        <div class="product-price-tag">₹250</div>
+        <div class="product-price-tag">₹${p.price}</div>
         <button class="product-add-btn" onclick="addToCart(${p.id},1,event)">Add to Cart</button>
       </div>
     </div>
@@ -952,7 +952,7 @@ function handleSearch(query) {
       <img src="${p.image}" alt="${p.name}">
       <div>
         <h4>${p.name}</h4>
-        <p>${p.category} · ₹250</p>
+        <p>${p.category} · ₹${p.price}</p>
       </div>
     </div>
   `).join('');
