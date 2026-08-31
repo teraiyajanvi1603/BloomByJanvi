@@ -953,9 +953,11 @@ ul { list-style:none; }
 
 .drawer {
   position: fixed;
-  top: 0; right: -420px;
+  top: 0; bottom: 0; right: -420px;
   width: 100%; max-width: 400px;
   height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
   background: var(--white);
   z-index: 1100;
   display: flex;
@@ -986,7 +988,9 @@ ul { list-style:none; }
 .drawer-close:hover { background: var(--purple); color: #fff; }
 .drawer-body {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 1.2rem 1.4rem;
   display: flex;
   flex-direction: column;
@@ -1318,12 +1322,56 @@ ul { list-style:none; }
   }
 }
 
-/* ── Cart Mobile Responsiveness (<= 600px) ── */
+/* ── Cart & Header Mobile Responsiveness (<= 600px) ── */
 @media (max-width: 600px) {
+  /* Header */
+  .nav-inner {
+    padding: 0.75rem 0.8rem;
+    gap: 0.4rem;
+  }
+  .nav-brand {
+    gap: 0.45rem;
+    min-width: 0;
+    flex-shrink: 1;
+  }
+  .nav-brand img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+  .nav-brand-text {
+    font-size: 1.05rem;
+    white-space: nowrap;
+  }
+  .nav-brand-text .brand-script {
+    font-size: 1.4rem;
+    margin-left: 0.15rem;
+  }
+  .nav-icons {
+    gap: 0.25rem;
+    flex-shrink: 0;
+  }
+  .nav-icon-btn {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+  }
+  .nav-burger {
+    width: 22px;
+    margin-left: 0.15rem;
+    flex-shrink: 0;
+  }
+
+  /* Cart Drawer */
   .drawer {
     width: 100vw;
     max-width: 100vw;
     right: -100vw;
+    height: 100vh;
+    height: 100dvh;
+    max-height: 100dvh;
+    top: 0;
+    bottom: 0;
   }
   .drawer.open {
     right: 0;
@@ -1337,6 +1385,10 @@ ul { list-style:none; }
   .drawer-body {
     padding: 0.9rem 1rem;
     gap: 0.75rem;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .drawer-item {
     padding: 0.75rem;
@@ -1382,7 +1434,9 @@ ul { list-style:none; }
     margin-top: -2px;
   }
   .drawer-foot {
+    flex-shrink: 0;
     padding: 1rem 1.2rem;
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
   }
   .subtotal {
     font-size: 1rem;

@@ -769,6 +769,11 @@ function checkoutWhatsApp() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, '_blank');
+
+  cart = [];
+  save();
+  updateBadges();
+  renderCartDrawer();
 }
 
 // ─── Wishlist ───
