@@ -768,12 +768,24 @@ function checkoutWhatsApp() {
   const message = `Hello Bloom by Janvi,\n\nI would like to place an order:\n\n${itemLines.join('\n\n')}\n\nSubtotal: ₹${subtotal}\n\nPlease confirm my order.`;
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
-  window.open(whatsappUrl, '_blank');
-
+  // Clear cart in memory
   cart = [];
+
+  // Remove cart-related storage keys
+  localStorage.removeItem('bloom_cart_v2');
+  localStorage.removeItem('bloom_cart');
+  localStorage.removeItem('cart');
+  sessionStorage.removeItem('bloom_cart_v2');
+  sessionStorage.removeItem('bloom_cart');
+  sessionStorage.removeItem('cart');
+
+  // Persist empty cart state and update UI
   save();
   updateBadges();
   renderCartDrawer();
+
+  // Open WhatsApp
+  window.open(whatsappUrl, '_blank');
 }
 
 // ─── Wishlist ───
