@@ -1017,8 +1017,8 @@ ul { list-style:none; }
   object-fit: cover;
   flex-shrink: 0;
 }
-.drawer-item-info { flex: 1; }
-.drawer-item-info h4 { font-size: .9rem; font-weight: 600; margin-bottom: .2rem; }
+.drawer-item-info { flex: 1; min-width: 0; }
+.drawer-item-info h4 { font-size: .9rem; font-weight: 600; margin-bottom: .2rem; overflow-wrap: break-word; word-break: break-word; }
 .drawer-item-price { font-size: .9rem; font-weight: 700; color: var(--purple); }
 .qty-row {
   display: flex;
@@ -1315,6 +1315,85 @@ ul { list-style:none; }
   }
   .sparkle-5, .sparkle-6, .sparkle-7, .sparkle-8, .sparkle-9, .sparkle-10 {
     display: none;
+  }
+}
+
+/* ── Cart Mobile Responsiveness (<= 600px) ── */
+@media (max-width: 600px) {
+  .drawer {
+    width: 100vw;
+    max-width: 100vw;
+    right: -100vw;
+  }
+  .drawer.open {
+    right: 0;
+  }
+  .drawer-head {
+    padding: 1rem 1.2rem;
+  }
+  .drawer-head h3 {
+    font-size: 1.15rem;
+  }
+  .drawer-body {
+    padding: 0.9rem 1rem;
+    gap: 0.75rem;
+  }
+  .drawer-item {
+    padding: 0.75rem;
+    gap: 0.75rem;
+    border-radius: 12px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .drawer-item img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+  }
+  .drawer-item-info h4 {
+    font-size: 0.86rem;
+    line-height: 1.3;
+    margin-bottom: 0.15rem;
+  }
+  .drawer-item-price {
+    font-size: 0.84rem;
+  }
+  .qty-row {
+    margin-top: 0.35rem;
+    gap: 0.35rem;
+  }
+  .qty-row button {
+    width: 26px;
+    height: 26px;
+    font-size: 0.9rem;
+    touch-action: manipulation;
+  }
+  .qty-row span {
+    font-size: 0.86rem;
+    min-width: 20px;
+  }
+  .drawer-item-remove {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: -2px;
+  }
+  .drawer-foot {
+    padding: 1rem 1.2rem;
+  }
+  .subtotal {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  #whatsappCheckoutBtn {
+    font-size: 0.84rem;
+    padding: 0.75rem 1rem;
+    letter-spacing: 0.04em;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 

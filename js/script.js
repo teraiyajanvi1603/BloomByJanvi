@@ -13,7 +13,7 @@ const PRODUCTS = [
   {
     "id": 1,
     "name": "Pink Boho Dreamcatcher Wall Hanging",
-    "price": 250,
+    "price": 300,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/1.png",
     "desc": "Handcrafted pink boho dreamcatcher with delicate web and soft pastel feathers."
