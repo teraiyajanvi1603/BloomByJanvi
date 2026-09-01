@@ -429,7 +429,6 @@ ul { list-style:none; }
   max-width: 440px;
   aspect-ratio: 4/5;
   overflow: hidden;
-  cursor: pointer;
   opacity: 0;
   will-change: opacity, transform, box-shadow;
   animation: heroImgEntrance 1000ms cubic-bezier(.22,1,.36,1) 300ms forwards,
