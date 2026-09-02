@@ -13,7 +13,7 @@ const PRODUCTS = [
   {
     "id": 1,
     "name": "Pink Boho Dreamcatcher Wall Hanging",
-    "price": 3,
+    "price": 349,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/1.png",
     "desc": "Handcrafted pink boho dreamcatcher with delicate web and soft pastel feathers."
@@ -21,7 +21,7 @@ const PRODUCTS = [
   {
     "id": 2,
     "name": "Personalized Beaded Name Keychain",
-    "price": 250,
+    "price": 100,
     "category": "Keychain",
     "image": "bloom products/keychain/1.jpg",
     "desc": "Custom handmade beaded name keychain with vibrant alphabet beads and tassel."
@@ -29,7 +29,7 @@ const PRODUCTS = [
   {
     "id": 3,
     "name": "Navratri Traditional Mirror Work Jewelry Set",
-    "price": 250,
+    "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/20250801_163522.jpg",
     "desc": "Exquisite handmade traditional mirror work jewelry set for Garba and Navratri celebrations."
@@ -37,15 +37,15 @@ const PRODUCTS = [
   {
     "id": 4,
     "name": "Handmade Navratri Ghungroo Anklet",
-    "price": 250,
+    "price": 100,
     "category": "Navratri",
     "image": "bloom products/Navratri new/anklet.jpg",
     "desc": "Traditional ghungroo anklet with colorful thread work and jingling bells."
   },
   {
     "id": 5,
-    "name": "White Feather Dreamcatcher Wall Decor",
-    "price": 250,
+    "name": "Tree Of Life",
+    "price": 499,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/2.jpg",
     "desc": "Classic white dreamcatcher featuring gold bead accents and elegant white feathers."
@@ -53,7 +53,7 @@ const PRODUCTS = [
   {
     "id": 6,
     "name": "Mini White Feather Dreamcatcher Keychain",
-    "price": 250,
+    "price": 100,
     "category": "Keychain",
     "image": "bloom products/keychain/2.jpg",
     "desc": "Compact white dreamcatcher keychain with silver keyring and soft feather."
@@ -61,7 +61,7 @@ const PRODUCTS = [
   {
     "id": 7,
     "name": "Multicolor Thread Navratri Bangle",
-    "price": 250,
+    "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 1.jpg",
     "desc": "Vibrant handcrafted thread bangle adorned with mirror work for Garba nights."
@@ -69,7 +69,7 @@ const PRODUCTS = [
   {
     "id": 8,
     "name": "Mirror Accent Festive Bangle",
-    "price": 250,
+    "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 2.jpg",
     "desc": "Eye-catching mirror accent bangle handcrafted with colorful silk threads."
