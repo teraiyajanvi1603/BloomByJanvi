@@ -133,10 +133,10 @@ ul { list-style:none; }
   align-items: baseline;
 }
 .nav-brand-text .brand-script {
-  font-family: 'Alex Brush', cursive;
-  font-size: 1.65rem;
-  font-weight: 400;
-  color: var(--text);
+  font-family: var(--font-head);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--purple);
   margin-left: 0.25rem;
   display: inline-block;
   line-height: 1;

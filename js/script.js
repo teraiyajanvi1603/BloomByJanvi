@@ -208,8 +208,7 @@ const PRODUCTS = [
     "price": 179,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/7.jpg",
-    "desc": "Handcrafted pink and purple dreamcatcher keychain adorned with delicate feathers and pearl beads.
-."
+    "desc": "Handcrafted pink and purple dreamcatcher keychain adorned with delicate feathers and pearl beads."
   },
   {
     "id": 26,
