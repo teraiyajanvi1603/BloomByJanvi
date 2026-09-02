@@ -136,7 +136,7 @@ ul { list-style:none; }
   font-family: 'Alex Brush', cursive;
   font-size: 1.65rem;
   font-weight: 400;
-  color: var(--purple);
+  color: var(--text);
   margin-left: 0.25rem;
   display: inline-block;
   line-height: 1;

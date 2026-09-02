@@ -12,613 +12,590 @@ const WHATSAPP_NUMBER = '918511037557';
 const PRODUCTS = [
   {
     "id": 1,
-    "name": "Pink Boho Dreamcatcher Wall Hanging",
+    "name": "Pink Dreamcatcher Car Hanging",
     "price": 349,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/1.png",
-    "desc": "Handcrafted pink boho dreamcatcher with delicate web and soft pastel feathers."
+    "desc": "Handcrafted pink dreamcatcher car hanging of 4 inch width and 10 inch approx length."
   },
   {
     "id": 2,
     "name": "Personalized Beaded Name Keychain",
-    "price": 100,
+    "price": 199,
     "category": "Keychain",
-    "image": "bloom products/keychain/1.jpg",
-    "desc": "Custom handmade beaded name keychain with vibrant alphabet beads and tassel."
+    "image": "bloom products/keychain/18.jpg",
+    "desc": "Custom handmade beaded name keychain with vibrant alphabet beads and tassel NOTE:charms and name can be customized as per your need."
   },
   {
     "id": 3,
-    "name": "Navratri Traditional Mirror Work Jewelry Set",
+    "name": "Navratri Special Traditional Bangle Set",
     "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/20250801_163522.jpg",
-    "desc": "Exquisite handmade traditional mirror work jewelry set for Garba and Navratri celebrations."
+    "desc": "Bangles are handmade with threads mirrors and vibrant colors for navratri.. set of any one bangle pair at 299 ."
   },
   {
     "id": 4,
-    "name": "Handmade Navratri Ghungroo Anklet",
-    "price": 100,
+    "name": "Navratri Ghungroo Anklet",
+    "price": 99,
     "category": "Navratri",
     "image": "bloom products/Navratri new/anklet.jpg",
-    "desc": "Traditional ghungroo anklet with colorful thread work and jingling bells."
+    "desc": "Traditional ghungroo anklet with thread work and jingling bells which gives full navratri vibes."
   },
   {
     "id": 5,
-    "name": "Tree Of Life",
+    "name": "Tree Of Life Crystal Wall Decor",
     "price": 499,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/2.jpg",
-    "desc": "Classic white dreamcatcher featuring gold bead accents and elegant white feathers."
+    "desc": "Woven tree of life design with crystal chips, teal feathers and eye catching colors."
   },
   {
     "id": 6,
     "name": "Mini White Feather Dreamcatcher Keychain",
-    "price": 100,
+    "price": 119,
     "category": "Keychain",
     "image": "bloom products/keychain/2.jpg",
-    "desc": "Compact white dreamcatcher keychain with silver keyring and soft feather."
+    "desc": "Compact white dreamcatcher keychain with silver keyring and soft feather with evil eye bead."
   },
   {
     "id": 7,
-    "name": "Multicolor Thread Navratri Bangle",
+    "name": "Black Navratri Bangle",
     "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 1.jpg",
-    "desc": "Vibrant handcrafted thread bangle adorned with mirror work for Garba nights."
+    "desc": "black handcrafted thread bangle adorned with mirror work for Garba nights."
   },
   {
     "id": 8,
-    "name": "Mirror Accent Festive Bangle",
-    "price": 299,
+    "name": "Multicolor Pastel Thread Festive Bangle",
+    "price": 250,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 2.jpg",
-    "desc": "Eye-catching mirror accent bangle handcrafted with colorful silk threads."
+    "desc": "Eye-catching mirror accent bangle handcrafted with colorful cotton threads."
   },
   {
     "id": 9,
-    "name": "Protection Evil Eye Car Hanging",
+    "name": "Wave Of Blue Car Hanging",
     "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/3.jpg",
-    "desc": "Handmade evil eye protection charm with blue glass beads and flowing tassels."
+    "desc": "Handmade Wave Of Blue car hanging with eye catchy colors and brilliant design."
   },
   {
     "id": 10,
-    "name": "Protection Evil Eye Bead Keychain",
-    "price": 149,
+    "name": "Rainbow Macramé Keychain",
+    "price": 179,
     "category": "Keychain",
     "image": "bloom products/keychain/3.jpg",
-    "desc": "Evil eye protection keychain crafted with frosted glass beads and charm."
+    "desc": "Macramé rainbow keychain in pretty summer vibe with vibrant colors."
   },
   {
     "id": 11,
-    "name": "Royal Blue Handcrafted Bangle",
+    "name": "Multicolor Thread Festive Bangle",
     "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 3.jpg",
-    "desc": "Royal blue traditional bangle decorated with Gujarati mirror work."
+    "desc": "Eye-catching mirror accent bangle handcrafted with colorful cotton threads."
   },
   {
     "id": 12,
-    "name": "Bright Pink Navratri Bangle",
+    "name": "Pink Blue Traditional Bangle",
     "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 4.jpg",
-    "desc": "Festive sunshine yellow bangle with intricate thread wrapping and beads."
+    "desc": "Royal blue traditional bangle decorated with Gujarati mirror work."
   },
   {
     "id": 13,
-    "name": "Multicolor Wall Hanging",
-    "price": 199,
+    "name": "Multicolor Wall Hanging with light ",
+    "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/4.jpg",
-    "desc": "Woven tree of life design with turquoise crystal chips and teal feathers."
+    "desc": "Multicolored wall hanging with lighting which brings positivity and light both."
   },
   {
     "id": 14,
-    "name": "Macrame Keychain",
+    "name": "Purple Theme Macramé Keychain",
     "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/4.webp",
-    "desc": "Fluffy pastel pink pom-pom keychain with gold hardware and pearl charm."
+    "desc": "macramé keychain in shade of purple with pretty look."
   },
   {
     "id": 15,
-    "name": "Mirror Bangles",
+    "name": "Brown Blue Mirror Bangle ",
     "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 5.jpg",
-    "desc": "Rich magenta pink handcrafted bangle featuring tiny mirror charms."
+    "desc": "Rich blue and brown handcrafted bangle featuring tiny mirror charms."
   },
   {
     "id": 16,
-    "name": "Kada stack",
-    "price": 199,
+    "name": "Yellow Brown Kada Stack",
+    "price": 179,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 6.jpg",
-    "desc": "Kada stack."
+    "desc": "Traditional daily wear kada stack for classy look."
   },
   {
     "id": 17,
-    "name": "Evileye Car Decor",
+    "name": "Evil Eye Dreamcatcher Car Hanging",
     "price": 199,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/5.jpg",
-    "desc": "Evileye Car Decor."
+    "desc": "Bold royal blue dreamcatcher with layered feathers and protective evil eye bead."
   },
   {
     "id": 18,
-    "name": "Evileye Mini Keychain",
+    "name": "Mini Evil Eye Keychain",
     "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/5.jpg",
-    "desc": "Evileye Mini Keychain."
+    "desc": "Bold royal blue dreamcatcher keychain with protective evil eye bead."
   },
   {
     "id": 19,
-    "name": "Oxodise Bangle",
+    "name": "Elephant Oxidize Bangle",
     "price": 99,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 7.jpg",
-    "desc": "Oxodise Bangle."
+    "desc": "Oxidize bangles which will add  charm to your look 2.8 size."
   },
   {
     "id": 20,
-    "name": "Oxodise Bangle",
+    "name": "Oxodize Navratri Bangle",
     "price": 99,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 8.jpg",
-    "desc": "Oxodise Bangle."
+    "desc": "Oxidize bangles which will add  charm to your look 2.8 size."
   },
   {
     "id": 21,
-    "name": "Rose Pink Feather Dreamcatcher",
-    "price": 250,
+    "name": "Evil Eye Dreamcatcher Car Hanging ",
+    "price": 349,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/6.jpg",
-    "desc": "Soft pink dreamcatcher wall hanging woven with pearl accents and fluffy pink feathers."
+    "desc": "Evil eye dreamcatcher with full of feathers which will add attraction to your car and home."
   },
   {
     "id": 22,
-    "name": "Macrame Daisy Flower Keychain",
-    "price": 250,
+    "name": "Mini Evil Eye Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/6.jpg",
-    "desc": "Hand-knotted macrame daisy flower keychain in cream and yellow thread."
+    "desc": "Bold royal black dreamcatcher keychain with protective evil eye bead."
   },
   {
     "id": 23,
-    "name": "Oxidized Bead & Thread Bangle",
-    "price": 250,
+    "name": "Oxidized Peacock Bangle",
+    "price": 99,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 9.jpg",
-    "desc": "Oxidized style bead and cotton thread bangle with traditional charm."
+    "desc": "Oxidized style peacock bangle with traditional charm."
   },
   {
     "id": 24,
-    "name": "Festive Red Fabric Hairbow",
-    "price": 250,
+    "name": "Hairbow",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairbow 1.jpg",
-    "desc": "Traditional red fabric hairbow with mirror and ghungroo highlights."
+    "desc": "Traditional hairbow with mirror and ghungroo highlights."
   },
   {
     "id": 25,
-    "name": "Pastel Rainbow Macrame Wall Hanging",
-    "price": 250,
+    "name": "Pink Purple Car Hanging",
+    "price": 179,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/7.jpg",
-    "desc": "Charming hand-knotted pastel rainbow macrame wall decor with fringe detail."
+    "desc": "Handcrafted pink and purple dreamcatcher keychain adorned with delicate feathers and pearl beads.
+."
   },
   {
     "id": 26,
-    "name": "Rainbow Corded Fringe Keychain",
-    "price": 250,
+    "name": "Mini Purple Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/7.jpg",
-    "desc": "Vibrant rainbow thread keychain with tassel fringe and sturdy ring."
+    "desc": "purple keychain with bright color to add charm to your beg or keyrings."
   },
   {
     "id": 27,
-    "name": "Mirror Work Garba Hairbow",
-    "price": 250,
+    "name": "Hairbow",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairbow 2.jpg",
-    "desc": "Beautiful hand-stitched mirror work hairbow for festive hair styling."
+    "desc": "Traditional hairbow with mirror and ghungroo highlights."
   },
   {
     "id": 28,
-    "name": "Royal Yellow Navratri Hairbow",
-    "price": 250,
+    "name": "Hairbow",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairbow 3.jpg",
-    "desc": "Bright yellow hairbow clip accented with pom-poms and mirror discs."
+    "desc": "Traditional hairbow with mirror and ghungroo highlights."
   },
   {
     "id": 29,
-    "name": "Lavender Charm Car Hanging",
-    "price": 250,
+    "name": "Blue Skyblue Car Hanging",
+    "price": 179,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/8.jpg",
-    "desc": "Delicate purple and lavender dreamcatcher car hanging with soft feather drops."
+    "desc": "Delicate blue sky blue dreamcatcher car hanging with soft feather drops."
   },
   {
     "id": 30,
-    "name": "Amethyst Purple Feather Keychain",
-    "price": 250,
+    "name": "Mini blue sku blue Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/8.jpg",
-    "desc": "Rich purple dreamcatcher keychain with amethyst style beads and feathers."
+    "desc": "keychain with perfect color coombination to add charm classic blue."
   },
   {
     "id": 31,
-    "name": "Vibrant Pink Garba Hairbow",
-    "price": 250,
+    "name": "Hairbow",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairbow 4.jpg",
-    "desc": "Hot pink festive hairbow designed specially for Navratri celebrations."
+    "desc": "Traditional hairbow with mirror and ghungroo highlights."
   },
   {
     "id": 32,
-    "name": "Peacock Blue Hairbow Accent",
-    "price": 250,
+    "name": "Hairbow",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairbow 5.jpg",
-    "desc": "Peacock blue handcrafted hairbow clip with ghungroo bells."
+    "desc": "Traditional hairbow with mirror and ghungroo highlights."
   },
   {
     "id": 33,
-    "name": "Peacock Feather Mini Wall Decor",
-    "price": 250,
+    "name": "Blue Pink Dreamcatcher Wall Hanging",
+    "price": 349,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/9.jpg",
-    "desc": "Stunning mini wall hanging with natural peacock feather and crystal beadwork."
+    "desc": "pink and blue wall hanging in size of 7 inch width and 16 inch approx length."
   },
   {
     "id": 34,
-    "name": "Peacock Feather Charm Keychain",
-    "price": 250,
+    "name": "Mini in shade of purple Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/9.jpg",
-    "desc": "Unique keychain featuring mini peacock feather drop and gold accents."
+    "desc": "keychain with perfect color coombination in shade of purple."
   },
   {
     "id": 35,
-    "name": "Handcrafted Floral Hairpin Set",
-    "price": 250,
+    "name": "Hairpin",
+    "price": 49,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairpin 1.jpg",
-    "desc": "Set of handcrafted festive hairpins with colorful fabric flowers."
+    "desc": "handcrafted festive hairpins with colorful thread and mirror."
   },
   {
     "id": 36,
-    "name": "Festive Shell & Bead Hairpin",
-    "price": 250,
+    "name": "Hairpin",
+    "price": 49,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairpin 2.jpg",
-    "desc": "Garba-special hairpin embellished with shells, mirrors, and beads."
+    "desc": "handcrafted festive hairpins with colorful thread and mirror."
   },
   {
     "id": 37,
-    "name": "Turquoise Bead Dreamcatcher",
-    "price": 250,
+    "name": "Pastel Boho Bead Dreamcatcher",
+    "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/10.webp",
-    "desc": "Vibrant turquoise dreamcatcher with silver charms and matching feathers."
+    "desc": "Vibrant dreamcatcher with pastle boho beads and matching feathers."
   },
   {
     "id": 38,
-    "name": "Ocean Blue Mini Dreamcatcher Keychain",
-    "price": 250,
+    "name": "Orange Black Mini Dreamcatcher Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/10.jpg",
-    "desc": "Deep blue dreamcatcher keychain with silver bead highlight."
+    "desc": "Deep orange black dreamcatcher keychain perfect shade."
   },
   {
     "id": 39,
-    "name": "Mirror Work Decorative Hairpin",
-    "price": 250,
+    "name": "Hairpin",
+    "price": 49,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairpin 3.jpg",
-    "desc": "Elegant mirror work hairpin drop for traditional Gujarati hair accessory."
+    "desc": "Elegant oxodize hairpin drop for traditional Gujarati hair accessory."
   },
   {
     "id": 40,
-    "name": "Traditional Ghungroo Hairpin",
-    "price": 250,
+    "name": "Hairpin",
+    "price": 49,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairpin 4.jpg",
-    "desc": "Jingling ghungroo bell hairpin crafted for folk dance performances."
+    "desc": "Jingling Traditional Ghungroo kodi hairpin for perfecr navratri vibe."
   },
   {
     "id": 41,
-    "name": "Boho Chic Macrame Wall Hanging",
-    "price": 250,
+    "name": "Shade Of Purple Car Hanging Dreamcatcher",
+    "price": 179,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/11.jpg",
-    "desc": "Bohemian style dreamcatcher with natural cotton macrame cords and wooden beads."
+    "desc": "Bohemian style dreamcatcher with shade of purple and perfect one."
   },
   {
     "id": 42,
-    "name": "Boho Tassel Bead Keychain",
-    "price": 250,
+    "name": "yellow white Dreamcatcher Keychain",
+    "price": 110,
     "category": "Keychain",
     "image": "bloom products/keychain/11.jpg",
-    "desc": "Earth-toned bohemian bead keychain with hand-tied thread tassel."
+    "desc": "Yeollow white combined keychain webbed with hand-tied thread tassel."
   },
   {
     "id": 43,
     "name": "Traditional Garba Hairstring (Parandi)",
-    "price": 250,
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 1.jpg",
     "desc": "Multicolor braided parandi hairstring with tassel and mirror work."
   },
   {
     "id": 44,
-    "name": "Multicolor Pom-Pom Hairstring",
-    "price": 250,
+    "name": "Traditional Garba Hairstring (Parandi)",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 2.jpg",
     "desc": "Playful pom-pom and bead hairstring for colorful Navratri hairstyles."
   },
   {
     "id": 45,
-    "name": "Sunburst Crystal Car Hanging",
-    "price": 250,
+    "name": "Peacock Theme Wall Hanging ",
+    "price": 349,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/12.jpg",
-    "desc": "Radiant sunburst motif car hanging accent with sparkling crystal prism drop."
+    "desc": " black peacock feather dream catcher wall hanging, often used for home decor and positive energy. ."
   },
   {
     "id": 46,
-    "name": "Rainbow Ombre Macrame Keychain",
-    "price": 250,
+    "name": "Evil Eye Webbed Dreamcatcher Keychain",
+    "price": 149,
     "category": "Keychain",
     "image": "bloom products/keychain/12.jpg",
-    "desc": "Multi-tone rainbow ombre macrame keychain woven with soft cotton."
+    "desc": "Handcrafted blue dreamcatcher keychain featuring intricate woven detailing, pearl beads, a cowrie shell, evil-eye charm, and vibrant blue-and-white feathers.."
   },
   {
     "id": 47,
-    "name": "Mirror Accent Braided Hairstring",
-    "price": 250,
+    "name": "Traditional Garba Hairstring (Parandi)",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 3.jpg",
     "desc": "Intricate mirror accent hairstring to braid into hair for Garba."
   },
   {
     "id": 48,
-    "name": "Royal Blue Festival Hairstring",
-    "price": 250,
+    "name": "Traditional Garba Hairstring (Parandi)",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 4.jpg",
-    "desc": "Deep blue parandi hairstring with silver ghungroo endings."
+    "desc": "Multicolor braided parandi hairstring with tassel and kodi work"
   },
   {
     "id": 49,
-    "name": "Rose Quartz Feather Dreamcatcher",
-    "price": 250,
+    "name": "Tree Of Life car hanging Dreamcatcher",
+    "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/13.jpg",
-    "desc": "Pink rose quartz stone dreamcatcher with hand-dyed pink feathers."
+    "desc": "Handcrafted turquoise dreamcatcher featuring a sparkling tree-of-life design, crystal beads, delicate pearls, and flowing turquoise feathers for a serene bohemian touch."
   },
-  {
-    "id": 50,
-    "name": "Magenta Feather Dreamcatcher Keychain",
-    "price": 250,
-    "category": "Keychain",
-    "image": "bloom products/keychain/13.jpg",
-    "desc": "Bright magenta pink dreamcatcher keychain with fluffy feather."
-  },
+ 
   {
     "id": 51,
-    "name": "Golden Bead Navratri Hairstring",
-    "price": 250,
+    "name": "Golden Bead Navratri Hairstring(Parandi)",
+    "price": 229,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairsting 5.jpg",
-    "desc": "Golden beaded hairstring adding instant shimmer to traditional braids."
+    "desc": "Handcrafted boho hair string with braided threads, natural shells, silver charms, and elegant mustard accents for a unique ethnic look.."
   },
   {
     "id": 52,
-    "name": "Bright Pink Tassel Hairstring",
-    "price": 250,
+    "name": "Hairpin (parandi)",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 6.jpg",
-    "desc": "Hot pink silk tassel hairstring handcrafted with traditional flair."
+    "desc": "Handcrafted boho hair string with braided threads, natural shells, silver charms, and elegant mustard accents for a unique ethnic look.."
   },
   {
     "id": 53,
-    "name": "Evil Eye Shell Wall Charm",
-    "price": 250,
+    "name": "white Grey Car Hanging Dreamcatcher",
+    "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/14.jpg",
-    "desc": "Protective evil eye wall hanging featuring genuine cowrie shell accents."
+    "desc": "Handcrafted grey dreamcatcher featuring a delicate web, pearl accents, and soft feathers for a serene boho touch.."
   },
   {
     "id": 54,
-    "name": "Cowrie Shell Evil Eye Keychain",
+    "name": "Mini White Evil Eye Keychain",
     "price": 250,
     "category": "Keychain",
     "image": "bloom products/keychain/14.webp",
-    "desc": "Beach-inspired evil eye keychain with natural cowrie shell drop."
+    "desc": "white elegant evil eye keychain with natural cowrie shell drop."
   },
   {
     "id": 55,
-    "name": "Heavy Festive Garba Parandi Hairstring",
-    "price": 250,
+    "name": "Peacock Parandi Hairpin ",
+    "price": 59,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 7.jpg",
-    "desc": "Statement heavy parandi hairstring with multi-layered tassels and mirrors."
+    "desc": "Handcrafted multicolour braided hair string with silver charms, shell accents, and a stylish clip for a vibrant boho look."
   },
   {
     "id": 56,
-    "name": "Shell & Mirror Work Hairstring",
-    "price": 250,
+    "name": "kodi multicolor parandi Hairpin",
+    "price": 59,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hairstring 8.jpg",
-    "desc": "Cowrie shell and mirror studded hairstring for authentic Gujarati look."
+    "desc": "Handcrafted pastel braided hair string with pink and green threads, delicate silver charms, and a shell accent for a playful boho look."
   },
   {
     "id": 57,
-    "name": "Floral Wreath Dreamcatcher",
-    "price": 250,
+    "name": "White Car Hanging Dreamcatcher",
+    "price": 299,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/15.jpg",
-    "desc": "Handmade floral wreath dreamcatcher with pastel flowers and silk ribbons."
+    "desc": "Handcrafted white dreamcatcher adorned with delicate golden beads and soft feathers, perfect for adding an elegant and peaceful boho touch to any space."
   },
   {
     "id": 58,
-    "name": "Crystal Quartz Pendant Keychain",
-    "price": 250,
+    "name": "Grey Yellow Dreamcatcher Keychain ",
+    "price": 149,
     "category": "Keychain",
     "image": "bloom products/keychain/15.jpg",
-    "desc": "Raw crystal quartz pendant keychain wrapped in gold jewelry wire."
+    "desc": "Yeollow grey combined keychain webbed with hand-tied thread feather."
   },
   {
     "id": 59,
-    "name": "Traditional Navratri Handcuff (Hathphool)",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff.jpg",
-    "desc": "Handcrafted hathphool handcuff bracelet connecting ring to wrist with mirror work."
+    "desc": "Handcrafted embroidered statement bracelet with vibrant floral detailing, a mirror accent, and intricate silver charms for a colourful boho look."
   },
   {
     "id": 60,
-    "name": "Mirror Work Festive Handcuff",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff 2.jpg",
-    "desc": "Stunning mirror work hathphool handcuff for Garba dance."
+    "desc": "Handcrafted embroidered statement bracelet with vibrant floral detailing, a mirror accent, and intricate silver charms for a colourful boho look."
   },
   {
     "id": 61,
-    "name": "Golden Bell Feather Wall Hanging",
-    "price": 250,
+    "name": "Goldenbrown black Wall Hanging",
+    "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/16.jpg",
     "desc": "Traditional golden bell and feather wall hanging creating gentle melody."
   },
   {
     "id": 62,
-    "name": "Golden Sun Charm Keychain",
-    "price": 250,
+    "name": "Purple Pink webbed Dreamcatcher Keychain ",
+    "price": 149,
     "category": "Keychain",
     "image": "bloom products/keychain/16.jpg",
-    "desc": "Sun motif metal charm keychain with warm orange and yellow beads."
+    "desc": "fully Webbed keychain in purple pink rich color combination."
   },
   {
     "id": 63,
-    "name": "Shell Accent Garba Handcuff",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff 3.jpg",
-    "desc": "Traditional cowrie shell and thread handcuff jewelry."
+    "desc": "Traditional cowrie shell and thread handcuff jewelry intricate silver charms for a colourful boho look."
   },
   {
     "id": 64,
-    "name": "Multicolor Threaded Hathphool",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff 4.jpg",
-    "desc": "Vibrant multicolor thread work hathphool handcuff."
+    "desc": "Vibrant multicolor thread work hathphool handcuff Traditional Navratri Handcuff."
   },
   {
     "id": 65,
-    "name": "Braided Heart Charm Keychain",
-    "price": 250,
+    "name": "Peacock feather blue dreamcatcher Keychain",
+    "price": 89,
     "category": "Keychain",
     "image": "bloom products/keychain/17.jpg",
-    "desc": "Hand-braided cord keychain featuring a sweet polished heart pendant."
+    "desc": "Peacock fethaer dreamcathcer keychain perfect personal touch for gifting."
   },
   {
     "id": 66,
-    "name": "Royal Blue Handcuff Bracelet",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff 5.jpg",
-    "desc": "Royal blue handcrafted handcuff adorned with small ghungroo bells."
+    "desc": "Royal handcrafted handcuff adorned with small golden ghungroo bells."
   },
   {
     "id": 67,
-    "name": "Golden Bead Festive Handcuff",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff",
+    "price": 179,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff 6.jpg",
-    "desc": "Golden bead and mirror cuff bracelet for festive attire."
-  },
-  {
-    "id": 68,
-    "name": "Rose Pearl Tassel Keychain",
-    "price": 250,
-    "category": "Keychain",
-    "image": "bloom products/keychain/18.jpg",
-    "desc": "Elegant freshwater style pearl and silk tassel keychain in blush pink."
+    "desc": "Handcrafted embroidered statement cuff with geometric mirrorwork, vibrant detailing, and dangling shell accents for a bold boho look."
   },
   {
     "id": 69,
-    "name": "Vibrant Magenta Garba Handcuff",
-    "price": 250,
+    "name": "Traditional Navratri Handcuff(best seller)",
+    "price": 229,
     "category": "Navratri",
     "image": "bloom products/Navratri new/handcuff 7.jpg",
-    "desc": "Bright magenta pink hathphool handcuff with traditional embroidery."
-  },
-  {
-    "id": 70,
-    "name": "Traditional Oxidized Mirror Handcuff",
-    "price": 250,
-    "category": "Navratri",
-    "image": "bloom products/Navratri new/handcuff 8.jpg",
-    "desc": "Oxidized finish mirror handcuff with ring attachment."
+    "desc": "handcuff crafted with details of ghughru and kodi shells perfect for navratri."
   },
   {
     "id": 71,
-    "name": "Vintage Butterfly Bead Keychain",
-    "price": 250,
+    "name": "Macramé Evil Eye Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/19.jpg",
-    "desc": "Charming butterfly accent keychain with pastel glass seed beads."
+    "desc": "evil eye macrame keychain for protecting your loved once perfect for gifting."
   },
   {
     "id": 72,
-    "name": "Traditional Navratri Mirror Hasli Necklace",
-    "price": 250,
+    "name": "Traditional oxodized Hasli",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hasli 1.jpg",
-    "desc": "Handcrafted rigid choker hasli necklace studded with mirrors and beads."
+    "desc": "rigid choker oxodized hasli with pure detailing ."
   },
   {
     "id": 73,
-    "name": "Handcrafted Thread & Bead Hasli Choker",
-    "price": 250,
+    "name": "Traditional oxodized Hasli",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/hasli 2.jpg",
-    "desc": "Colorful thread wrapped hasli necklace perfect for Garba outfit."
+    "desc": "rigid choker oxodized hasli with pure detailing ."
   },
   {
     "id": 74,
-    "name": "Statement Mirror Work Navratri Ring",
-    "price": 250,
+    "name": "Mirror Work Navratri Hand Ring",
+    "price": 69,
     "category": "Navratri",
     "image": "bloom products/Navratri new/ring 1.jpg",
     "desc": "Bold adjustable statement ring with central mirror work and bead border."
   },
   {
     "id": 75,
-    "name": "Festive Fabric Flower Ring",
-    "price": 250,
+    "name": "Mirror Work Navratri Hand Ring",
+    "price": 69,
     "category": "Navratri",
     "image": "bloom products/Navratri new/ring 2.jpg",
     "desc": "Handmade fabric floral statement ring in bright festival colors."
   },
   {
     "id": 76,
-    "name": "Traditional Oxidized Motif Ring",
-    "price": 250,
+    "name": "Mirror Work Navratri Hand Ring",
+    "price": 129,
     "category": "Navratri",
     "image": "bloom products/Navratri new/ring 3.jpg",
     "desc": "Oxidized style traditional motif ring with mirror highlight."
-  }
-];
+  }];
 
 // ─── State ───
 let cart            = JSON.parse(localStorage.getItem('bloom_cart_v2'))     || [];
