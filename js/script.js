@@ -77,7 +77,7 @@ const PRODUCTS = [
   {
     "id": 9,
     "name": "Protection Evil Eye Car Hanging",
-    "price": 250,
+    "price": 249,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/3.jpg",
     "desc": "Handmade evil eye protection charm with blue glass beads and flowing tassels."
@@ -85,7 +85,7 @@ const PRODUCTS = [
   {
     "id": 10,
     "name": "Protection Evil Eye Bead Keychain",
-    "price": 250,
+    "price": 149,
     "category": "Keychain",
     "image": "bloom products/keychain/3.jpg",
     "desc": "Evil eye protection keychain crafted with frosted glass beads and charm."
@@ -93,82 +93,82 @@ const PRODUCTS = [
   {
     "id": 11,
     "name": "Royal Blue Handcrafted Bangle",
-    "price": 250,
+    "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 3.jpg",
     "desc": "Royal blue traditional bangle decorated with Gujarati mirror work."
   },
   {
     "id": 12,
-    "name": "Bright Yellow Navratri Bangle",
-    "price": 250,
+    "name": "Bright Pink Navratri Bangle",
+    "price": 299,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 4.jpg",
     "desc": "Festive sunshine yellow bangle with intricate thread wrapping and beads."
   },
   {
     "id": 13,
-    "name": "Tree of Life Crystal Wall Hanging",
-    "price": 250,
+    "name": "Multicolor Wall Hanging",
+    "price": 199,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/4.jpg",
     "desc": "Woven tree of life design with turquoise crystal chips and teal feathers."
   },
   {
     "id": 14,
-    "name": "Pastel Pink Pom-Pom Keychain",
-    "price": 250,
+    "name": "Macrame Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/4.webp",
     "desc": "Fluffy pastel pink pom-pom keychain with gold hardware and pearl charm."
   },
   {
     "id": 15,
-    "name": "Magenta Pink Beaded Bangle",
-    "price": 250,
+    "name": "Mirror Bangles",
+    "price": 149,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 5.jpg",
     "desc": "Rich magenta pink handcrafted bangle featuring tiny mirror charms."
   },
   {
     "id": 16,
-    "name": "Vibrant Green Shell Bangle",
-    "price": 250,
+    "name": "Kada stack",
+    "price": 199,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 6.jpg",
-    "desc": "Traditional green Garba bangle accented with mini cowrie shells."
+    "desc": "Kada stack."
   },
   {
     "id": 17,
-    "name": "Royal Blue Dreamcatcher Car Decor",
-    "price": 250,
+    "name": "Evileye Car Decor",
+    "price": 199,
     "category": "Car / Wall Hanging",
     "image": "bloom products/car-wall hanging/5.jpg",
-    "desc": "Bold royal blue dreamcatcher with layered feathers and protective evil eye bead."
+    "desc": "Evileye Car Decor."
   },
   {
     "id": 18,
-    "name": "Celestial Moon & Star Keychain",
-    "price": 250,
+    "name": "Evileye Mini Keychain",
+    "price": 79,
     "category": "Keychain",
     "image": "bloom products/keychain/5.jpg",
-    "desc": "Enchanting moon and star charm keychain with dark blue beaded accent."
+    "desc": "Evileye Mini Keychain."
   },
   {
     "id": 19,
-    "name": "Golden Threaded Garba Bangle",
-    "price": 250,
+    "name": "Oxodise Bangle",
+    "price": 99,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 7.jpg",
-    "desc": "Sparkling golden thread bangle perfect for pairing with Navratri chaniya choli."
+    "desc": "Oxodise Bangle."
   },
   {
     "id": 20,
-    "name": "Peacock Motif Navratri Bangle",
-    "price": 250,
+    "name": "Oxodise Bangle",
+    "price": 99,
     "category": "Navratri",
     "image": "bloom products/Navratri new/bangle 8.jpg",
-    "desc": "Hand-painted peacock style bangle with vibrant festive colors."
+    "desc": "Oxodise Bangle."
   },
   {
     "id": 21,
